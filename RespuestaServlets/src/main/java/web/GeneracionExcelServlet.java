@@ -12,6 +12,7 @@ public class GeneracionExcelServlet extends HttpServlet {
         
         //Indicamos el tipo de respuesta
         response.setContentType("application/vnd.ms-excel");
+        
         /*Tambien vamos a indicar al cliente que cuando haga click en el vinculo 
         se descargue el documento*/
         response.setHeader("Content-Disposition",
