@@ -22,7 +22,7 @@ public class HoraServlet extends HttpServlet {
         Date fecha = new Date();
         
         //Establecemos un formato de hora
-        SimpleDateFormat formatoFecha = new SimpleDateFormat();
+        SimpleDateFormat formatoFecha = new SimpleDateFormat("HH:mm:ss");
         
         //Aplicamos el formato a nuestra fecha
         String horaConFormato = formatoFecha.format(fecha);
